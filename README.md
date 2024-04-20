@@ -10,6 +10,11 @@ Run the Vite dev server:
 npm run dev
 ```
 
+## SQLITE
+
+https://orm.drizzle.team/docs/get-started-sqlite#better-sqlite3
+
+
 ## Deployment
 
 First, build your app for production:
