@@ -15,6 +15,7 @@
     "@remix-run/react": "^2.8.1",
     "@remix-run/serve": "^2.8.1",
     "better-sqlite3": "^9.5.0",
+    "bootstrap-icons": "^1.11.3",
     "bulma": "^1.0.0",
     "drizzle-orm": "^0.30.8",
     "isbot": "^4.1.0",

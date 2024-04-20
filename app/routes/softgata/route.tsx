@@ -1,5 +1,7 @@
 import type { MetaFunction } from "@remix-run/node"
 import NavBar from "./components/Navbar"
+import MainHero from "./components/MainHero"
+
 
 export const meta: MetaFunction = () => {
     return [
@@ -13,6 +15,7 @@ export default function SoftgataLanding() {
     return (
         <main className="container">
             <NavBar />
+            <MainHero />
         </main>
     )
 }
