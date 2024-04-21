@@ -1,6 +1,9 @@
 import type { MetaFunction } from "@remix-run/node"
 import NavBar from "./components/Navbar"
 import MainHero from "./components/MainHero"
+import ServiceCards from "./components/ServiceCards"
+import ServiceDetails from "./components/ServiceDetails"
+import Steps from "./components/Steps"
 
 
 export const meta: MetaFunction = () => {
@@ -16,6 +19,9 @@ export default function SoftgataLanding() {
         <main className="container">
             <NavBar />
             <MainHero />
+            <ServiceCards />
+            <ServiceDetails />
+            <Steps />
         </main>
     )
 }
