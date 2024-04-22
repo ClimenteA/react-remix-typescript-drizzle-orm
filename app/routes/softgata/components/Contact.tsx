@@ -22,7 +22,7 @@ export default function Contact() {
                     <div className="field">
                         <label className="label">Your message</label>
                         <div className="control">
-                            <textarea className="textarea is-dark" placeholder="Textarea"></textarea>
+                            <textarea className="textarea is-large is-dark" placeholder="Write a short overview of the area you think we can help you."></textarea>
                         </div>
                     </div>
 
