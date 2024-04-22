@@ -1,6 +1,6 @@
 export default function Steps() {
     return (
-        <div className="t-mt-24">
+        <div className="t-mt-24 container">
 
             <div>
                 <h2 className="title is-2 has-text-centered">Ok... how does this work?</h2>
@@ -69,22 +69,6 @@ export default function Steps() {
 
             </div>
 
-
-            <div className="mb-6 t-flex t-items-baseline t-justify-between t-mt-32 t-p-10 t-rounded-[20px] t-bg-gray-200">
-
-                <p className="title is-3">
-                    Take the first step
-                    <i className="ml-2 bi bi-arrow-right"></i>
-                </p>
-
-                <a
-                    href="#"
-                    className="button is-large t-font-bold title is-3 t-bg-rose-600 t-text-white"
-                >
-                    Contact us
-                </a>
-
-            </div>
         </div>
     )
 }

@@ -5,7 +5,7 @@ export default function MainHero() {
     const binaryText = "{01010111}"
 
     return (
-        <div className="t-relative">
+        <div className="t-relative container">
 
             <div className="t-relative">
 
@@ -21,7 +21,7 @@ export default function MainHero() {
                 <h1 className="title is-1 has-text-centered t-leading-relaxed t-mt-28 t-text-gray-900">
                     We'll help you bring <span className="t-text-rose-600">more value</span> <br /> to your customers.
                 </h1>
-                <p className="has-text-centered t-leading-relaxed">
+                <p className="has-text-centered t-text-lg t-leading-relaxed">
                     Enhance your business by integrating custom software solutions.
                     <br />
                     Save time, money, resources, increase accuracy of your business processes and maybe 10x your ROI.
@@ -42,7 +42,7 @@ export default function MainHero() {
 
             </div>
 
-            <div className="t-bg-rose-600 t-p-20 t-mt-32" style={{ borderRadius: "40px" }}>
+            <div className="t-bg-rose-600 t-p-20 t-mt-32 t-rounded-[40px]">
                 <p className="title is-2 t-leading-relaxed  has-text-white">
                     “The function of good software is to make the complex appear to be simple.”
                 </p>

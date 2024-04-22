@@ -4,6 +4,7 @@ import MainHero from "./components/MainHero"
 import ServiceCards from "./components/ServiceCards"
 import ServiceDetails from "./components/ServiceDetails"
 import Steps from "./components/Steps"
+import Blog from "./components/Blog"
 
 
 export const meta: MetaFunction = () => {
@@ -16,12 +17,13 @@ export const meta: MetaFunction = () => {
 
 export default function SoftgataLanding() {
     return (
-        <main className="container">
+        <main className="container-fluid">
             <NavBar />
             <MainHero />
             <ServiceCards />
             <ServiceDetails />
             <Steps />
+            <Blog />
         </main>
     )
 }
