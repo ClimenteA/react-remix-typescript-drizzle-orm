@@ -65,7 +65,7 @@ export default function Footer() {
 
             </div>
 
-            <p className="t-absolute t-text-grey-50 t-right-4 t-bottom-4">Copyright Climente Alin Ionel PFA</p>
+            <p className="t-absolute t-text-gray-400 t-text-xs t-right-4 t-bottom-4">Copyright Climente Alin Ionel PFA</p>
 
         </footer>
     )

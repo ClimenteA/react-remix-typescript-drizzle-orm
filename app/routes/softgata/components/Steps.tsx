@@ -25,7 +25,7 @@ export default function Steps() {
                 <h2 className="title is-size-2-desktop is-size-3-tablet is-size-3-mobile has-text-centered">
                     Ok... how does this work?
                 </h2>
-                <p className="has-text-centered -t-mt-5 lg:t-text-md t-text-sm">
+                <p className="has-text-centered -t-mt-5 lg:t-text-lg t-text-sm">
                     Below are the steps we'll take if you decide to collaborate with us.
                 </p>
             </div>
