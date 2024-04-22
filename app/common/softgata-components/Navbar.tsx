@@ -1,23 +1,22 @@
 import { useState } from "react"
-
+import { Link } from "@remix-run/react"
 
 
 export default function NavBar() {
     const [navbarOpen, setNavbar] = useState<boolean>(false)
-    const [lang, setLang] = useState<boolean>(true)
-    const toggleLang = () => setLang(!lang)
     const toggleNavbar = () => setNavbar(!navbarOpen)
     const closeNavbar = () => setNavbar(false)
 
     return (
-        <div className="mt-6 is-flex is-justify-content-center">
+        <div className="mt-6 is-flex is-justify-content-center t-select-none">
 
             <nav className="navbar t-w-9/12 t-bg-gray-100 t-rounded-full px-5" role="navigation" aria-label="main navigation">
 
                 <div className="navbar-brand">
-                    <a className="navbar-item has-text-weight-bold">
+
+                    <Link to={"/softgata"} className="navbar-item has-text-weight-bold">
                         SOFT<span className="t-text-emerald-500">GATA</span>
-                    </a>
+                    </Link>
 
                     <a
                         role="button"
@@ -38,20 +37,10 @@ export default function NavBar() {
 
                     <div className="navbar-end has-text-weight-bold">
                         <div className="navbar-item">
-                            <a onClick={closeNavbar} className="py-2" href="#">Services</a>
+                            <Link to={"/softgata#services"} onClick={closeNavbar} className="py-2">Services</Link>
                         </div>
                         <div className="navbar-item">
-                            <a onClick={closeNavbar} className="py-2" href="#">About us</a>
-                        </div>
-                        <div className="navbar-item">
-                            <a onClick={() => {
-                                closeNavbar()
-                                toggleLang()
-                            }} className="py-2" href="#">
-                                <span className={lang ? "t-text-emerald-500" : ""}> EN </span>
-                                |
-                                <span className={lang ? "" : "t-text-emerald-500"}> RO </span>
-                            </a>
+                            <Link to={"/softgata-about"} onClick={closeNavbar} className="py-2">About us</Link>
                         </div>
                     </div>
                 </div>

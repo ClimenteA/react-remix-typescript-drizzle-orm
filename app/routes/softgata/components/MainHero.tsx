@@ -1,3 +1,4 @@
+import { Link } from "@remix-run/react"
 
 
 export default function MainHero() {
@@ -30,10 +31,10 @@ export default function MainHero() {
 
             <div className="md:t-mt-28 t-mt-16 is-flex is-flex-direction-column is-align-items-center">
 
-                <button type="button" className="button is-large is-responsive has-text-weight-bold mb-4 is-primary t-text-white">
+                <Link to={"/softgata-contact"} type="button" className="button is-large is-responsive has-text-weight-bold mb-4 is-primary t-text-white">
                     Let's talk, it's free
                     <i className="ml-2 bi bi-arrow-right"></i>
-                </button>
+                </Link>
 
                 <div className="is-flex is-flex-direction-column is-align-items-center has-text-grey">
                     <p className="md:t-text-sm t-text-xs">See more below</p>
