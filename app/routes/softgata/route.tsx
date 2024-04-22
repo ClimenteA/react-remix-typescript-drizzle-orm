@@ -5,6 +5,7 @@ import ServiceCards from "./components/ServiceCards"
 import ServiceDetails from "./components/ServiceDetails"
 import Steps from "./components/Steps"
 import Blog from "./components/Blog"
+import Contact from "./components/Contact"
 
 
 export const meta: MetaFunction = () => {
@@ -24,6 +25,7 @@ export default function SoftgataLanding() {
             <ServiceDetails />
             <Steps />
             <Blog />
+            <Contact />
         </main>
     )
 }
