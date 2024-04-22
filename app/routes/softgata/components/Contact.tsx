@@ -10,12 +10,12 @@ export default function Contact() {
 
                 <fetcher.Form method="post" className="box t-py-16 t-px-12 t-bg-gray-50">
 
-                    <h2 className="title is-2">Let's get in touch!</h2>
+                    <h2 className="title is-size-2-desktop is-size-3-tablet is-size-3-mobile">Let's get in touch!</h2>
 
                     <div className="field t-mt-16 t-max-w-[370px]">
                         <label className="label">Your email</label>
                         <div className="control">
-                            <input className="input is-dark is-large" type="email" placeholder="youremail@company.com" />
+                            <input className="input is-dark is-large is-responsive" type="email" placeholder="youremail@company.com" />
                         </div>
                     </div>
 

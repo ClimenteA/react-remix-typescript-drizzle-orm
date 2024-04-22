@@ -7,15 +7,15 @@ export default function Footer() {
 
             <div className="t-flex t-justify-center">
                 <div>
-                    <h2 className="t-text-6xl t-font-bold">
+                    <h2 className="lg:t-text-6xl t-text-4xl t-font-bold">
                         <span className="t-text-white">SOFT</span>
                         <span className="has-text-success">GATA</span>
                     </h2>
-                    <p className="t-text-gray-400 t-text-3xl ml-1">Your Software Partner</p>
+                    <p className="t-text-gray-400 lg:t-text-3xl t-text-lg lg:ml-1">Your Software Partner</p>
                 </div>
             </div>
 
-            <div className="container t-mt-16 t-flex t-gap-8 t-justify-between">
+            <div className="container t-mt-16 t-flex lg:t-flex-nowrap t-flex-wrap t-gap-8 t-justify-between px-4">
 
                 <ul className="has-text-white t-space-y-2">
                     <caption className="t-text-lg t-font-bold mb-3">Legal</caption>
