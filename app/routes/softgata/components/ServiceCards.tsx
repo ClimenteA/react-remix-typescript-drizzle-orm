@@ -3,15 +3,15 @@
 export default function ServiceCards() {
 
     return (
-        <div className="t-mt-32 container">
-            <p className="title is-4 t-text-gray-900">
+        <div className="lg:t-mt-32 t-mt-16 container">
+            <p className="title is-4 t-text-gray-900 md:ml-0 ml-2">
                 We offer the following services:
             </p>
 
-            <div className="t-grid xl:t-grid-cols-3 xl:t-gap-24 t-grid-cols-1 t-gap-12 mt-6 t-place-items-center">
+            <div className="t-flex t-flex-wrap t-place-content-center t-gap-12 mt-6">
 
                 <article
-                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-max-w-[400px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">
@@ -31,7 +31,7 @@ export default function ServiceCards() {
 
 
                 <article
-                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-max-w-[400px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">
@@ -50,7 +50,7 @@ export default function ServiceCards() {
                 </article>
 
                 <article
-                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-max-w-[400px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">
@@ -71,14 +71,14 @@ export default function ServiceCards() {
             </div>
 
 
-            <div className="t-flex t-flex-row t-justify-between t-mt-16">
+            <div className="t-flex lg:t-flex-row lg:t-justify-between t-flex-col t-mt-16 md:mx-0 mx-2">
 
-                <p className="title is-4 t-text-gray-900">
-                    <i className="mr-2 bi bi-asterisk"></i>
+                <p className="title is-size-4-desktop is-size-4-tablet is-size-5-mobile t-text-gray-900">
+                    <i className="mr-2 bi bi-asterisk md:t-inline-block t-hidden"></i>
                     We can help you achieve your objectives!
                 </p>
 
-                <a href="#" className="title is-4 t-text-gray-900">
+                <a href="#" className="title is-size-4-desktop is-size-4-tablet is-size-5-mobile t-text-gray-900">
                     Book a call with us
                     <i className="ml-2 bi bi-arrow-right"></i>
                 </a>
