@@ -11,7 +11,7 @@ export default function ServiceCards() {
             <div className="t-grid xl:t-grid-cols-3 xl:t-gap-24 t-grid-cols-1 t-gap-12 mt-6 t-place-items-center">
 
                 <article
-                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/public/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">
@@ -31,7 +31,7 @@ export default function ServiceCards() {
 
 
                 <article
-                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/public/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">
@@ -50,7 +50,7 @@ export default function ServiceCards() {
                 </article>
 
                 <article
-                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/public/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-shadow-xl t-rounded-[20px] t-p-8 t-w-[450px] t-min-h-[550px] t-bg-[url('/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">

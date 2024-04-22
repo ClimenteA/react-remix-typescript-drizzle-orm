@@ -2,7 +2,7 @@
 
 export default function ServiceDetails() {
     return (
-        <div className="t-bg-gray-50 t-mt-20 p-6 t-bg-[url('/public/softgata/future-robot.jpg')] t-bg-contain t-bg-right">
+        <div className="t-bg-gray-50 t-mt-20 p-6 t-bg-[url('/softgata/future-robot.jpg')] t-bg-contain t-bg-right">
 
 
             <div className="t-flex t-flex-col t-gap-24 my-6 t-min-w-[600px] container">

@@ -65,7 +65,7 @@ export default function Steps() {
 
                 </div>
 
-                <img className="t-rounded-[40px] -t-z-10 t-w-[600px]" src="/public/softgata/email.jpg" alt="" />
+                <img className="t-rounded-[40px] -t-z-10 t-w-[600px]" src="/softgata/email.jpg" alt="" />
 
             </div>
 

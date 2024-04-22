@@ -31,7 +31,7 @@ export default function Blog() {
                     <div className="t-grid xl:t-grid-cols-2 xl:t-gap-24 t-grid-cols-1 t-gap-12 mt-6 t-place-items-center">
 
                         <article
-                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/public/softgata/article-business-automation-identify.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/article-business-automation-identify.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                         >
 
                             <h2 className="t-text-2xl t-font-bold has-text-white has-text-centered t-bg-gray-900 p-4 t-rounded-[20px]">
@@ -41,7 +41,7 @@ export default function Blog() {
                         </article>
 
                         <article
-                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/public/softgata/happy-meeting-2.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/happy-meeting-2.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                         >
 
                             <h2 className="t-text-2xl t-font-bold has-text-white has-text-centered t-bg-gray-900 p-4 t-rounded-[20px]">
@@ -52,7 +52,7 @@ export default function Blog() {
 
 
                         <article
-                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/public/softgata/laptop-charts.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/laptop-charts.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                         >
 
                             <h2 className="t-text-2xl t-font-bold has-text-white has-text-centered t-bg-gray-900 p-4 t-rounded-[20px]">
@@ -64,7 +64,7 @@ export default function Blog() {
 
                         <article
                             className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] 
-                            t-bg-[url('/public/softgata/olarit.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                            t-bg-[url('/softgata/olarit.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                         >
 
                             <h2 className="t-text-2xl t-font-bold has-text-white has-text-centered t-bg-gray-900 p-4 t-rounded-[20px]">
@@ -74,7 +74,7 @@ export default function Blog() {
                         </article>
 
                         <article
-                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/public/softgata/big-monitor-with-code.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/big-monitor-with-code.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                         >
 
                             <h2 className="t-text-2xl t-font-bold has-text-white has-text-centered t-bg-gray-900 p-4 t-rounded-[20px]">
@@ -85,7 +85,7 @@ export default function Blog() {
 
 
                         <article
-                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/public/softgata/casual-interview.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                            className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/casual-interview.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                         >
 
                             <h2 className="t-text-2xl t-font-bold has-text-white has-text-centered t-bg-gray-900 p-4 t-rounded-[20px]">
