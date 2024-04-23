@@ -31,7 +31,7 @@ export default function MainHero() {
 
             <div className="md:t-mt-28 t-mt-16 is-flex is-flex-direction-column is-align-items-center">
 
-                <Link to={"/softgata-contact"} type="button" className="button is-large is-responsive has-text-weight-bold mb-4 is-primary t-text-white">
+                <Link to={"/softgata/contact"} type="button" className="button is-large is-responsive has-text-weight-bold mb-4 is-primary t-text-white">
                     Let's talk, it's free
                     <i className="ml-2 bi bi-arrow-right"></i>
                 </Link>

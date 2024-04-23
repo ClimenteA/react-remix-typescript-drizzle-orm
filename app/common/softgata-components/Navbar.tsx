@@ -40,7 +40,7 @@ export default function NavBar() {
                             <Link to={"/softgata#services"} onClick={closeNavbar} className="py-2">Services</Link>
                         </div>
                         <div className="navbar-item">
-                            <Link to={"/softgata-about"} onClick={closeNavbar} className="py-2">About us</Link>
+                            <Link to={"/softgata/about"} onClick={closeNavbar} className="py-2">About us</Link>
                         </div>
                     </div>
                 </div>

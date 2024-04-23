@@ -12,7 +12,7 @@ export default function Blog() {
                         <i className="ml-2 bi bi-arrow-right"></i>
                     </p>
 
-                    <Link to={"/softgata-contact"} className="button is-large t-font-bold title is-size-3-desktop is-size-4-tablet is-size-4-mobile t-bg-rose-600 t-text-white">
+                    <Link to={"/softgata/contact"} className="button is-large t-font-bold title is-size-3-desktop is-size-4-tablet is-size-4-mobile t-bg-rose-600 t-text-white">
                         Contact us
                     </Link>
 

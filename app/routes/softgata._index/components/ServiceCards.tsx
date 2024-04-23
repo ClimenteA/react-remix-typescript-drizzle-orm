@@ -88,7 +88,7 @@ export default function ServiceCards() {
                         We can help you achieve your objectives!
                     </p>
 
-                    <Link to={"/softgata-contact"} className="title is-size-4-desktop is-size-4-tablet is-size-5-mobile t-text-gray-900">
+                    <Link to={"/softgata/contact"} className="title is-size-4-desktop is-size-4-tablet is-size-5-mobile t-text-gray-900">
                         Book a call with us
                         <i className="ml-2 bi bi-arrow-right"></i>
                     </Link>
