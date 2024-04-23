@@ -8,7 +8,7 @@ export default function NavBar() {
     const closeNavbar = () => setNavbar(false)
 
     return (
-        <div className="mt-6 is-flex is-justify-content-center t-select-none">
+        <div className="pt-6 is-flex is-justify-content-center t-select-none">
 
             <nav className="navbar t-w-9/12 t-bg-gray-100 t-rounded-full px-5" role="navigation" aria-label="main navigation">
 

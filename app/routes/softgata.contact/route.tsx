@@ -1,6 +1,6 @@
-import NavBar from "~/common/softgata-components/Navbar"
-import Contact from "~/common/softgata-components/Contact"
-import Footer from "~/common/softgata-components/Footer"
+import NavBar from "../softgata._index/components/Navbar"
+import Contact from "../softgata._index/components/Contact"
+import Footer from "../softgata._index/components/Footer"
 import type { MetaFunction } from "@remix-run/node"
 
 

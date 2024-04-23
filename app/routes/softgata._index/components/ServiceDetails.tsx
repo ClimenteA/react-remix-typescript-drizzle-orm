@@ -7,7 +7,7 @@ export default function ServiceDetails() {
 
             <div className="t-flex t-flex-col t-gap-24 my-6 container">
 
-                <div className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
+                <div id="business-automation-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
                     <h2 className="title is-size-3-desktop is-size-4-tablet is-size-4-mobile t-text-white">
                         <i className="mr-4 bi bi-arrow-right"></i>
                         Business Automation
@@ -30,7 +30,7 @@ export default function ServiceDetails() {
                 </div>
 
 
-                <div className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
+                <div id="saas-development-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
                     <h2 className="title is-size-3-desktop is-size-4-tablet is-size-4-mobile t-text-white">
                         <i className="mr-4 bi bi-arrow-right"></i>
                         SAAS Development
@@ -52,7 +52,7 @@ export default function ServiceDetails() {
                     </ul>
                 </div>
 
-                <div className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
+                <div id="app-integrations-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
                     <h2 className="title is-size-3-desktop is-size-4-tablet is-size-4-mobile t-text-white">
                         <i className="mr-4 bi bi-arrow-right"></i>
                         App Integrations

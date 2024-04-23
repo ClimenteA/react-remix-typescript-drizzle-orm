@@ -19,7 +19,9 @@ export default function ServiceCards() {
                 >
 
                     <div className="t-mt-32">
-                        <h2 className="title is-3 has-text-white has-text-centered">Business Automation</h2>
+                        <h2 className="title is-3 has-text-white has-text-centered">
+                            Business Automation
+                        </h2>
 
                         <p className="t-text-gray-100 t-mt-32 has-text-centered">
                             Together we can identify business processes in your organization which can be improved with software.
@@ -27,10 +29,10 @@ export default function ServiceCards() {
                     </div>
 
                     <div className="t-flex t-justify-end mt-6">
-                        <a href="#" className="has-text-success">
+                        <Link to={"/softgata#business-automation-details"} className="has-text-success">
                             See more
                             <i className="ml-1 bi bi-arrow-right t-text-xs"></i>
-                        </a>
+                        </Link>
                     </div>
 
                 </article>
@@ -49,10 +51,10 @@ export default function ServiceCards() {
                     </div>
 
                     <div className="t-flex t-justify-end mt-6">
-                        <a href="#" className="has-text-success">
+                        <Link to={"/softgata#saas-development-details"} className="has-text-success">
                             See more
                             <i className="ml-1 bi bi-arrow-right t-text-xs"></i>
-                        </a>
+                        </Link>
                     </div>
 
                 </article>
@@ -70,10 +72,10 @@ export default function ServiceCards() {
                     </div>
 
                     <div className="t-flex t-justify-end mt-6">
-                        <a href="#" className="has-text-success">
+                        <Link to={"/softgata#app-integrations-details"} className="has-text-success">
                             See more
                             <i className="ml-1 bi bi-arrow-right t-text-xs"></i>
-                        </a>
+                        </Link>
                     </div>
 
                 </article>

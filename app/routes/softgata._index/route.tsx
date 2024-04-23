@@ -4,9 +4,10 @@ import ServiceCards from "./components/ServiceCards"
 import ServiceDetails from "./components/ServiceDetails"
 import Steps from "./components/Steps"
 import Blog from "./components/Blog"
-import NavBar from "~/common/softgata-components/Navbar"
-import Contact from "~/common/softgata-components/Contact"
-import Footer from "~/common/softgata-components/Footer"
+import NavBar from "./components/Navbar"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+
 
 export const meta: MetaFunction = () => {
     return [
