@@ -4,7 +4,12 @@ import { json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import type { MetaFunction, LoaderFunctionArgs } from "@remix-run/node"
 import invariant from "tiny-invariant"
-
+import IdentifyAutomationOportunities from "./components/IdentifyAutomationOportunities"
+import BenefitsOfAutomatedProcesses from "./components/BenefitsOfAutomatedProcesses"
+import UsefulSoftwareForCompanies from "./components/UsefulSoftwareForCompanies"
+import BuildingVsUsingExistingSoftware from "./components/BuildingVsUsingExistingSoftware"
+import TopTechSaaSCanUse from "./components/TopTechSaaSCanUse"
+import HowToFindGreatTalent from "./components/HowToFindGreatTalent"
 
 
 export const meta: MetaFunction = () => {
@@ -36,32 +41,32 @@ const slugMapper: { [key: string]: Page } = {
     "how-to-identify-areas-in-your-business-that-can-be-automated": {
         title: "How to identify areas in your business that can be automated",
         image: '/softgata/article-business-automation-identify.jpg',
-        component: () => <title>some jsx</title>
+        component: IdentifyAutomationOportunities
     },
     "how-will-an-automated-business-process-benefit-your-company": {
         title: "How will an automated business process benefit your company",
         image: '/softgata/happy-meeting-2.jpg',
-        component: () => <title>some jsx</title>
+        component: BenefitsOfAutomatedProcesses
     },
     "what-software-can-you-integrate-in-your-company-to-yield-more-results": {
         title: "What software can you integrate in your company to yield more results",
         image: '/softgata/laptop-charts.jpg',
-        component: () => <title>some jsx</title>
+        component: UsefulSoftwareForCompanies
     },
     "building-custom-software-vs-integrating-existing-software-in-your-business": {
         title: "Building custom software vs integrating existing software in your business",
         image: '/softgata/olarit.jpg',
-        component: () => <title>some jsx</title>
+        component: BuildingVsUsingExistingSoftware
     },
-    "top-technologies-which-you-can-use-to-create-the-next-gen-saas": {
-        title: "Top technologies which you can use to create the next gen SAAS",
+    "top-technologies-we-use-to-create-the-web-applications": {
+        title: "Top technologies we use to create web applications",
         image: '/softgata/big-monitor-with-code.jpg',
-        component: () => <title>some jsx</title>
+        component: TopTechSaaSCanUse
     },
-    "how-to-find-great-talent-for-your-company-and-what-great-talent-looks-for-at-work": {
-        title: "How to find great talent for your company and what great talent looks for at work",
+    "how-to-find-great-talent-for-your-company": {
+        title: "How to find great talent for your company",
         image: '/softgata/casual-interview.jpg',
-        component: () => <title>some jsx</title>
+        component: HowToFindGreatTalent
     },
 }
 

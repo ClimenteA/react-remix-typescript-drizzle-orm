@@ -85,27 +85,27 @@ export default function Blog() {
                             </article>
                         </Link>
 
-                        <Link to={"/softgata/blog/top-technologies-which-you-can-use-to-create-the-next-gen-saas"}>
+                        <Link to={"/softgata/blog/top-technologies-we-use-to-create-the-web-applications"}>
                             <article
                                 className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] 
                             t-p-8 t-max-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/big-monitor-with-code.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                             >
 
                                 <h2 className="lg:t-text-2xl t-text-xl t-font-bold has-text-white has-text-centered t-bg-gray-900 p-4 t-rounded-[20px]">
-                                    Top technologies which you can use to create the next gen SAAS
+                                    Top technologies we use to create web applications
                                 </h2>
 
                             </article>
                         </Link>
 
 
-                        <Link to={"/softgata/blog/how-to-find-great-talent-for-your-company-and-what-great-talent-looks-for-at-work"}>
+                        <Link to={"/softgata/blog/how-to-find-great-talent-for-your-company"}>
                             <article
                                 className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-max-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/casual-interview.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                             >
 
                                 <h2 className="lg:t-text-2xl t-text-xl t-font-bold has-text-white has-text-centered t-bg-gray-900 p-4 t-rounded-[20px]">
-                                    How to find great talent for your company and what great talent looks for at work
+                                    How to find great talent for your company
                                 </h2>
 
                             </article>
