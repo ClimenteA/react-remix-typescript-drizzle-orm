@@ -1,7 +1,6 @@
 import NavBar from "../softgata._index/components/Navbar"
 import Footer from "../softgata._index/components/Footer"
 import type { MetaFunction } from "@remix-run/node"
-import { Link } from "@remix-run/react"
 
 
 export const meta: MetaFunction = () => {
