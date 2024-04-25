@@ -1,7 +1,7 @@
 import NavBar from "../softgata._index/components/Navbar"
 import Footer from "../softgata._index/components/Footer"
-import { json } from "@remix-run/node";
-import { useLoaderData } from "@remix-run/react";
+import { json } from "@remix-run/node"
+import { useLoaderData } from "@remix-run/react"
 import type { MetaFunction, LoaderFunctionArgs } from "@remix-run/node"
 import invariant from "tiny-invariant"
 import IdentifyAutomationOportunities from "./components/IdentifyAutomationOportunities"

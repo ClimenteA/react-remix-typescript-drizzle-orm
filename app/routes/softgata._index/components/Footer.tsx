@@ -1,48 +1,65 @@
-
+import { Link } from "@remix-run/react"
 
 
 export default function Footer() {
     return (
         <footer className="t-bg-gray-900 t-py-24 t-relative">
 
-            <div className="t-flex t-justify-center">
-                <div>
-                    <h2 className="lg:t-text-6xl t-text-4xl t-font-bold">
-                        <span className="t-text-white">SOFT</span>
-                        <span className="has-text-success">GATA</span>
-                    </h2>
-                    <p className="t-text-gray-400 lg:t-text-3xl t-text-lg lg:ml-1">Your Software Partner</p>
+            <Link to={"/softgata"}>
+                <div className="t-flex t-justify-center">
+                    <div>
+                        <h2 className="lg:t-text-6xl t-text-4xl t-font-bold">
+                            <span className="t-text-white">SOFT</span>
+                            <span className="has-text-success">GATA</span>
+                        </h2>
+                        <p className="t-text-gray-400 lg:t-text-3xl t-text-lg lg:ml-1">Your Software Partner</p>
+                    </div>
                 </div>
-            </div>
+            </Link>
+
 
             <div className="container t-mt-16 t-flex lg:t-flex-nowrap t-flex-wrap t-gap-8 t-justify-between px-4">
 
                 <ul className="has-text-white t-space-y-2">
                     <caption className="t-text-lg t-font-bold mb-3">Legal</caption>
                     <li>
-                        <a href="#">About us</a>
+                        <Link to={"/softgata/about"}>
+                            About us
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Cookie policy</a>
+                        <Link to={"/softgata/cookie-policy"}>
+                            Cookie policy
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">GDPR</a>
+                        <Link to={"/softgata/gdpr"}>
+                            GDPR
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Terms and conditions</a>
+                        <Link to={"/softgata/terms-and-conditions"}>
+                            Terms and conditions
+                        </Link>
                     </li>
                 </ul>
 
                 <ul className="has-text-white t-space-y-2">
                     <caption className="t-text-lg t-font-bold mb-3">Social</caption>
                     <li>
-                        <a href="#">Linkedin</a>
+                        <Link to={"https://www.linkedin.com/company/softgata"}>
+                            linkedin
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Medium</a>
+                        <Link to={"https://medium.com/@climente-alin"}>
+                            medium
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Youtube</a>
+                        <Link to={"https://dev.to/climentea"}>
+                            dev.to
+                        </Link>
                     </li>
                 </ul>
 
@@ -50,16 +67,24 @@ export default function Footer() {
                 <ul className="has-text-white t-space-y-2">
                     <caption className="t-text-lg t-font-bold mb-3">Projects</caption>
                     <li>
-                        <a href="#">Accounting app for freelancers</a>
+                        <Link to={"https://github.com/ClimenteA/flaskwebgui"}>
+                            Python web app to desktop app converter
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Python web app to desktop app converter</a>
+                        <Link to={"https://github.com/ClimenteA/simple-server-monitor"}>
+                            Server notifier service
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Local remote jobs aggregator</a>
+                        <Link to={"https://github.com/ClimenteA/Local-Remote-Developer-Jobs-Aggregator"}>
+                            Local remote jobs aggregator
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">Server notifier service</a>
+                        <Link to={"https://github.com/ClimenteA/PFASimplu"}>
+                            Accounting app for freelancers
+                        </Link>
                     </li>
                 </ul>
 
