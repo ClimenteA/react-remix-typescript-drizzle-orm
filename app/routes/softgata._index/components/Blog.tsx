@@ -30,7 +30,7 @@ export default function Blog() {
 
                     <div className="t-grid xl:t-grid-cols-2 xl:t-gap-24 t-grid-cols-1 t-gap-12 mt-6 t-place-items-center">
 
-                        <a href="#">
+                        <Link to={"/softgata/blog/how-to-identify-areas-in-your-business-that-can-be-automated"}>
                             <article
                                 className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] 
                             t-p-8 t-max-w-[500px] t-min-h-[300px] 
@@ -42,10 +42,9 @@ export default function Blog() {
                                 </h2>
 
                             </article>
-                        </a>
+                        </Link>
 
-
-                        <a href="#">
+                        <Link to={"/softgata/blog/how-will-an-automated-business-process-benefit-your-company"}>
                             <article
                                 className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] 
                             t-p-8 t-max-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/happy-meeting-2.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
@@ -56,10 +55,10 @@ export default function Blog() {
                                 </h2>
 
                             </article>
-                        </a>
+                        </Link>
 
 
-                        <a href="#">
+                        <Link to={"/softgata/blog/what-software-can-you-integrate-in-your-company-to-yield-more-results"}>
                             <article
                                 className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] 
                             t-p-8 t-max-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/laptop-charts.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
@@ -70,9 +69,9 @@ export default function Blog() {
                                 </h2>
 
                             </article>
-                        </a>
+                        </Link>
 
-                        <a href="#">
+                        <Link to={"/softgata/blog/building-custom-software-vs-integrating-existing-software-in-your-business"}>
                             <article
                                 className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 
                             t-max-w-[500px] t-min-h-[300px] 
@@ -84,9 +83,9 @@ export default function Blog() {
                                 </h2>
 
                             </article>
-                        </a>
+                        </Link>
 
-                        <a href="#">
+                        <Link to={"/softgata/blog/top-technologies-which-you-can-use-to-create-the-next-gen-saas"}>
                             <article
                                 className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] 
                             t-p-8 t-max-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/big-monitor-with-code.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
@@ -97,10 +96,10 @@ export default function Blog() {
                                 </h2>
 
                             </article>
-                        </a>
+                        </Link>
 
 
-                        <a href="#">
+                        <Link to={"/softgata/blog/how-to-find-great-talent-for-your-company-and-what-great-talent-looks-for-at-work"}>
                             <article
                                 className="t-relative t-shadow-xl t-flex t-place-items-end t-rounded-[20px] t-p-8 t-max-w-[500px] t-min-h-[300px] t-bg-[url('/softgata/casual-interview.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                             >
@@ -110,7 +109,7 @@ export default function Blog() {
                                 </h2>
 
                             </article>
-                        </a>
+                        </Link>
 
                     </div>
                 </div>
