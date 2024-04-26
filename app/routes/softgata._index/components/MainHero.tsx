@@ -1,9 +1,20 @@
 import { Link } from "@remix-run/react"
+import { useSpring, animated } from '@react-spring/web'
 
 
 export default function MainHero() {
-
     const binaryText = "{01010111}"
+
+    const ctaDrop = useSpring({
+        from: { y: -60 },
+        to: { y: 0 },
+    })
+
+    const arrowLoop = useSpring({
+        from: { x: 0 },
+        to: { x: 5 },
+        loop: true
+    })
 
     return (
         <div className="t-relative container">
@@ -19,9 +30,14 @@ export default function MainHero() {
                     <path d="M363 181.5C363 145.163 352.093 109.662 331.691 79.5936C311.289 49.5248 282.331 26.272 248.566 12.8452C214.8 -0.581622 177.782 -3.56433 142.303 4.28315C106.823 12.1306 74.5158 30.447 49.5626 56.8614C24.6095 83.2758 8.15933 116.572 2.34146 152.44C-3.47641 188.309 1.60587 225.097 16.9305 258.045C32.255 290.992 57.1164 318.582 88.2964 337.241C119.476 355.901 155.54 364.772 191.818 362.706L181.5 181.5H363Z" fill="#FAFAFA" />
                 </svg>
 
-                <h1 className="title is-size-1-desktop is-size-2-mobile is-size-2-tablet has-text-centered md:t-leading-relaxed t-mt-28 t-text-gray-900">
-                    We'll help you bring <span className="t-text-rose-600">more value</span> <br /> to your customers.
-                </h1>
+                <animated.div style={{ ...ctaDrop }}>
+                    <h1 className="title is-size-1-desktop is-size-2-mobile is-size-2-tablet has-text-centered md:t-leading-relaxed t-mt-28 t-text-gray-900">
+                        We'll help you bring
+                        <span className="t-text-rose-600"> more value</span>
+                        <br /> to your customers.
+                    </h1>
+                </animated.div>
+
                 <p className="has-text-centered md:t-text-lg t-text-sm md:t-leading-relaxed">
                     Enhance your business by integrating custom software solutions.
                     <br />
@@ -33,7 +49,7 @@ export default function MainHero() {
 
                 <Link to={"/softgata/contact"} type="button" className="button is-large is-responsive has-text-weight-bold mb-4 is-primary t-text-white">
                     Let's talk, it's free
-                    <i className="ml-2 bi bi-arrow-right"></i>
+                    <animated.i style={arrowLoop} className="ml-2 bi bi-arrow-right"></animated.i>
                 </Link>
 
                 <div className="is-flex is-flex-direction-column is-align-items-center has-text-grey">

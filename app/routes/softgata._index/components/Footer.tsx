@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="container t-mt-16 t-flex lg:t-flex-nowrap t-flex-wrap t-gap-8 t-justify-between px-4">
 
                 <ul className="has-text-white t-space-y-2">
-                    <caption className="t-text-lg t-font-bold mb-3">Legal</caption>
+                    <p className="t-text-lg t-font-bold mb-3">Legal</p>
                     <li>
                         <Link to={"/softgata/about"}>
                             About us
@@ -45,7 +45,7 @@ export default function Footer() {
                 </ul>
 
                 <ul className="has-text-white t-space-y-2">
-                    <caption className="t-text-lg t-font-bold mb-3">Social</caption>
+                    <p className="t-text-lg t-font-bold mb-3">Social</p>
                     <li>
                         <Link to={"https://www.linkedin.com/company/softgata"}>
                             linkedin
@@ -65,7 +65,7 @@ export default function Footer() {
 
 
                 <ul className="has-text-white t-space-y-2">
-                    <caption className="t-text-lg t-font-bold mb-3">Projects</caption>
+                    <p className="t-text-lg t-font-bold mb-3">Projects</p>
                     <li>
                         <Link to={"https://github.com/ClimenteA/flaskwebgui"}>
                             Python web app to desktop app converter

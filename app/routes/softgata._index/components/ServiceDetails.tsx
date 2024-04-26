@@ -1,15 +1,19 @@
 
 
 export default function ServiceDetails() {
+
     return (
         <div className="t-bg-gray-50 t-mt-20 md:t-p-6 t-p-4 t-bg-[url('/softgata/future-robot.jpg')] t-bg-contain t-bg-right">
 
 
             <div className="t-flex t-flex-col t-gap-24 my-6 container">
 
-                <div id="business-automation-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
+                <article
+                    id="business-automation-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
                     <h2 className="title is-size-3-desktop is-size-4-tablet is-size-4-mobile t-text-white">
+
                         <i className="mr-4 bi bi-arrow-right"></i>
+
                         Business Automation
                     </h2>
                     <p className="t-text-white lg:t-text-lg t-text-md">
@@ -27,12 +31,14 @@ export default function ServiceDetails() {
                         <li>- Is it a daily process that we need to do for at least a year?</li>
                         <li>- Is it a one-time task that will take a ton of manpower to complete?</li>
                     </ul>
-                </div>
+                </article>
 
 
-                <div id="saas-development-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
+                <article
+                    id="saas-development-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
                     <h2 className="title is-size-3-desktop is-size-4-tablet is-size-4-mobile t-text-white">
                         <i className="mr-4 bi bi-arrow-right"></i>
+
                         SAAS Development
                     </h2>
                     <p className="t-text-white lg:t-text-lg t-text-md">
@@ -50,11 +56,13 @@ export default function ServiceDetails() {
                         <li>- Continous comunication;</li>
                         <li>- Honesty (you won't be in an echo chamber with us).</li>
                     </ul>
-                </div>
+                </article>
 
-                <div id="app-integrations-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
+                <article
+                    id="app-integrations-details" className="t-bg-gray-950 t-rounded-md p-6 t-max-w-[800px]">
                     <h2 className="title is-size-3-desktop is-size-4-tablet is-size-4-mobile t-text-white">
                         <i className="mr-4 bi bi-arrow-right"></i>
+
                         App Integrations
                     </h2>
                     <p className="t-text-white lg:t-text-lg t-text-md">
@@ -74,7 +82,7 @@ export default function ServiceDetails() {
                         <li>- Make surveys in your organization on how people think business processes can be improved. Don't ask just managers;</li>
                         <li>- If you don't improve your business processes, others will and that will impact your future contracts.</li>
                     </ul>
-                </div>
+                </article>
 
             </div>
 

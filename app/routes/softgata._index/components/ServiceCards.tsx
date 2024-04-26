@@ -1,8 +1,20 @@
 import { Link } from "@remix-run/react"
 import BookACall from "./BookACall"
+import { useInView, animated } from '@react-spring/web'
 
 
 export default function ServiceCards() {
+
+    const [cardRef, cardDrop] = useInView(
+        () => ({
+            from: { y: -20 },
+            to: { y: 0 },
+        }),
+        {
+            rootMargin: '-60% 0%',
+            once: true
+        }
+    )
 
     return (
         <div id="services" className="lg:t-pt-32 t-pt-16">
@@ -15,7 +27,9 @@ export default function ServiceCards() {
 
             <div className="t-flex t-flex-wrap t-place-content-center t-gap-10 mt-6">
 
-                <article
+                <animated.article
+                    ref={cardRef}
+                    style={cardDrop}
                     className="t-flex t-flex-col t-max-w-[430px] t-h-[550px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
@@ -36,10 +50,12 @@ export default function ServiceCards() {
                         </Link>
                     </div>
 
-                </article>
+                </animated.article>
 
 
-                <article
+                <animated.article
+                    ref={cardRef}
+                    style={cardDrop}
                     className="t-flex t-flex-col t-max-w-[430px] t-h-[550px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
@@ -58,9 +74,11 @@ export default function ServiceCards() {
                         </Link>
                     </div>
 
-                </article>
+                </animated.article>
 
-                <article
+                <animated.article
+                    ref={cardRef}
+                    style={cardDrop}
                     className="t-max-w-[430px] t-h-[550px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
@@ -79,7 +97,7 @@ export default function ServiceCards() {
                         </Link>
                     </div>
 
-                </article>
+                </animated.article>
 
             </div>
 

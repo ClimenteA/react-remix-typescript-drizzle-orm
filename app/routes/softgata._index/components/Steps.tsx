@@ -1,8 +1,38 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { useInView, animated } from '@react-spring/web'
+
 
 
 export default function Steps() {
+    const [stepSelected, setStepSelected] = useState<boolean>(false)
     const [selected, setSelected] = useState<number>(1)
+
+    useEffect(() => {
+        if (stepSelected) return
+        const interval = setInterval(() => {
+            if (selected == 1) setSelected(2)
+            if (selected == 2) setSelected(3)
+            if (selected == 3) setSelected(1)
+        }, 2000)
+        return () => clearTimeout(interval)
+    }, [selected])
+
+    const selectStep = (step: number) => {
+        setSelected(step)
+        setStepSelected(true)
+    }
+
+    const animation = () => ({
+        from: { y: -60 },
+        to: { y: 0 },
+    })
+
+    const options = {
+        rootMargin: '-90% 0%',
+        once: true
+    }
+
+    const [headerRef, headerDrop] = useInView(animation, options)
 
     const selectedCircleClasses = "t-bg-black t-min-w-[90px] t-min-h-[90px] t-rounded-[90px] t-grid t-place-content-center"
     const selectedArrowRightClasses = "m-4 t-block title is-1 bi bi-arrow-right lg:t-block t-hidden"
@@ -21,20 +51,20 @@ export default function Steps() {
     return (
         <div className="lg:t-mt-24 t-mt-16 container">
 
-            <div>
+            <animated.div ref={headerRef} style={headerDrop}>
                 <h2 className="title is-size-2-desktop is-size-3-tablet is-size-3-mobile has-text-centered">
                     Ok... how does this work?
                 </h2>
                 <p className="has-text-centered -t-mt-5 lg:t-text-lg t-text-sm">
                     Below are the steps we'll take if you decide to collaborate with us.
                 </p>
-            </div>
+            </animated.div>
 
             <div className="t-flex lg:t-flex-row lg:t-flex-nowrap t-flex-wrap t-place-items-center t-gap-6 t-mt-24">
 
                 <div className="t-space-y-12 t-min-w-[600px] t-z-10 ml-2">
 
-                    <a className="t-block t-cursor-pointer t-select-none" onClick={() => setSelected(1)}>
+                    <a className="t-block t-cursor-pointer t-select-none" onClick={() => selectStep(1)}>
                         <div className="t-flex lg:t-flex-row t-flex-col t-place-items-center">
 
                             <p className={selected == 1 ? selectedCircleClasses : unselectedCircleClasses}>
@@ -53,7 +83,7 @@ export default function Steps() {
                         </div>
                     </a>
 
-                    <a className="t-block t-cursor-pointer t-select-none" onClick={() => setSelected(2)}>
+                    <a className="t-block t-cursor-pointer t-select-none" onClick={() => selectStep(2)}>
                         <div className="t-flex lg:t-flex-row t-flex-col t-place-items-center">
 
                             <p className={selected == 2 ? selectedCircleClasses : unselectedCircleClasses}>
@@ -72,7 +102,7 @@ export default function Steps() {
                         </div>
                     </a>
 
-                    <a className="t-block t-cursor-pointer t-select-none" onClick={() => setSelected(3)}>
+                    <a className="t-block t-cursor-pointer t-select-none" onClick={() => selectStep(3)}>
                         <div className="t-flex lg:t-flex-row t-flex-col t-place-items-center">
 
                             <p className={selected == 3 ? selectedCircleClasses : unselectedCircleClasses}>
@@ -98,6 +128,6 @@ export default function Steps() {
 
             </div>
 
-        </div>
+        </div >
     )
 }
