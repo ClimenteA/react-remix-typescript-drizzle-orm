@@ -75,7 +75,10 @@ export default function HowToFindGreatTalent() {
                 In conclusion, while the search for the ideal candidate may seem daunting, focusing on building a supportive and dynamic culture can be the key to unlocking the potential of future hires.
             </p>
 
-            <BookACall />
+
+            <div className="t-pt-16">
+                <BookACall />
+            </div>
 
         </section>
 
