@@ -59,12 +59,12 @@ export default function MainHero() {
 
             </div>
 
-            <div className="t-bg-rose-600 lg:t-p-20 t-p-8 md:t-mt-32 t-mt-16 md:t-rounded-[40px] t-rounded-lg">
-                <p className="title is-size-2-desktop is-size-3-tablet is-size-4-mobile md:t-leading-relaxed has-text-white">
+            <div className="t-bg-rose-600 lg:t-p-20 t-py-6 t-px-4 md:t-mt-32 t-mt-16 md:t-rounded-[40px] lg:t-mx-0 t-mx-2 t-rounded-lg">
+                <p className="title is-size-2-desktop is-size-3-tablet is-size-5-mobile md:t-leading-relaxed has-text-white">
                     “The function of good software is to make the complex appear to be simple.”
                 </p>
                 <div className="t-flex t-justify-end">
-                    <p className="mt-4 title is-4-desktop is-size-5-tablet is-size-6-mobile has-text-white">(Grady Booch)</p>
+                    <p className="lg:t-mt-4 t-mt-2 title is-4-desktop is-size-5-tablet is-size-6-mobile has-text-white">(Grady Booch)</p>
                 </div>
             </div>
 

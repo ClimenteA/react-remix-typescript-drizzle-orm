@@ -25,12 +25,12 @@ export default function ServiceCards() {
                 </p>
             </div>
 
-            <div className="t-flex t-flex-wrap t-place-content-center t-gap-10 mt-6">
+            <div className="t-flex t-flex-wrap t-place-content-center t-gap-16 mt-6">
 
                 <animated.article
                     ref={cardRef}
                     style={cardDrop}
-                    className="t-flex t-flex-col t-max-w-[430px] t-h-[550px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[500px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">
@@ -56,7 +56,7 @@ export default function ServiceCards() {
                 <animated.article
                     ref={cardRef}
                     style={cardDrop}
-                    className="t-flex t-flex-col t-max-w-[430px] t-h-[550px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[500px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">
@@ -79,7 +79,7 @@ export default function ServiceCards() {
                 <animated.article
                     ref={cardRef}
                     style={cardDrop}
-                    className="t-max-w-[430px] t-h-[550px] t-shadow-xl t-rounded-[20px] t-p-8 t-bg-[url('/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[500px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
                     <div className="t-mt-32">

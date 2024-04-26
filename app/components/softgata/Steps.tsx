@@ -36,11 +36,11 @@ export default function Steps() {
 
     const selectedCircleClasses = "t-bg-black t-min-w-[90px] t-min-h-[90px] t-rounded-[90px] t-grid t-place-content-center"
     const selectedArrowRightClasses = "m-4 t-block title is-1 bi bi-arrow-right lg:t-block t-hidden"
-    const selectedTextClasses = "ml-4 lg:t-text-xl t-text-lg lg:mt-0 mt-4"
+    const selectedTextClasses = "ml-4 lg:t-text-xl t-text-md lg:mt-0 mt-4"
 
     const unselectedCircleClasses = "t-bg-gray-300 t-min-w-[90px] t-min-h-[90px] t-rounded-[90px] t-grid t-place-content-center"
     const unselectedArrowRightClasses = "m-4 t-block title t-text-gray-400 is-1 bi bi-arrow-right lg:t-block t-hidden"
-    const unselectedTextClasses = "ml-4 t-text-gray-400 lg:t-text-xl t-text-lg lg:mt-0 mt-4"
+    const unselectedTextClasses = "ml-4 t-text-gray-400 lg:t-text-xl t-text-md lg:mt-0 mt-4"
 
     const imageSrcMapper: { [key: number]: string } = {
         1: "/softgata/email.jpg",
@@ -52,17 +52,17 @@ export default function Steps() {
         <div className="lg:t-mt-24 t-mt-16 container">
 
             <animated.div ref={headerRef} style={headerDrop}>
-                <h2 className="title is-size-2-desktop is-size-3-tablet is-size-3-mobile has-text-centered">
+                <h2 className="title is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered">
                     Ok... how does this work?
                 </h2>
-                <p className="has-text-centered -t-mt-5 lg:t-text-lg t-text-sm">
+                <p className="has-text-centered t-mx-auto -t-mt-5 lg:t-text-lg md:t-text-sm t-text-xs md:t-max-w-full t-max-w-[290px]">
                     Below are the steps we'll take if you decide to collaborate with us.
                 </p>
             </animated.div>
 
             <div className="t-flex lg:t-flex-row lg:t-flex-nowrap t-flex-wrap t-place-items-center t-gap-6 t-mt-24">
 
-                <div className="t-space-y-12 t-min-w-[600px] t-z-10 ml-2">
+                <div className="t-space-y-12 lg:t-min-w-[600px] t-z-10 ml-2">
 
                     <a className="t-block t-cursor-pointer t-select-none" onClick={() => selectStep(1)}>
                         <div className="t-flex lg:t-flex-row t-flex-col t-place-items-center">
@@ -122,8 +122,8 @@ export default function Steps() {
 
                 </div>
 
-                <div className="mx-auto lg:t-mt-0 t-mt-6">
-                    <img className="lg:t-rounded-[40px] t-rounded-[20px] -t-z-10 lg:t-min-w-[600px] t-w-[700px] lg:t-h-[400px] t-h-[500px] t-object-cover" src={imageSrcMapper[selected]} alt="" />
+                <div className="mx-auto lg:t-mt-0 t-mt-6 t-px-2">
+                    <img className="lg:t-rounded-[40px] t-rounded-[15px] -t-z-10 lg:t-min-w-[600px] t-w-[700px] lg:t-h-[400px] t-h-[300px] t-object-cover" src={imageSrcMapper[selected]} alt="" />
                 </div>
 
             </div>

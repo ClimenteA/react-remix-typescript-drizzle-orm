@@ -1,0 +1,10 @@
+softgata.localhost {
+
+	reverse_proxy app:3000
+	redir / /softgata
+
+	encode zstd gzip
+	templates
+	file_server browse
+	
+}
