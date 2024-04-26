@@ -5,6 +5,7 @@ import type { ActionFunctionArgs } from "@remix-run/node"
 import NavBar from "../components/softgata/Navbar"
 import Contact from "../components/softgata/Contact"
 import Footer from "../components/softgata/Footer"
+import saveMessage from "~/backend.server/operations/softgata/softgata"
 
 
 export const meta: MetaFunction = () => {
@@ -23,7 +24,8 @@ export async function action({ request }: ActionFunctionArgs) {
     invariant(data.email, "Missing email")
     invariant(data.message, "Missing message")
 
-    console.log(data)
+    const response = await saveMessage(String(data.email), String(data.message))
+    console.log("Saved softgata message", response)
 
     return true
 }

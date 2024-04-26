@@ -43,13 +43,13 @@ export default function SoftgataAbout() {
                         <div className="column is-two-thirds">
                             <p>
                                 I am Alin Climente and I reprezent softgata.com.
-                                I have been <strong>making applications since 2017</strong>.
+                                I have been <strong>making web applications since 2017</strong>.
                                 Depending on the size and complexity of the project, we can increase the team from 1 to many.
                             </p>
 
                             <p>
                                 I started my journey in the software development field by automating some menial tasks assigned to me at my first office job.
-                                With a background in engineering (mechanics/robotics) my first instinct is to find the easiest way to do a job.
+                                With a background in engineering (mechanics/robotics) my first instinct is to find the easiest way to do the job.
                                 Some might say I'm lazy, but <strong>why work hard when you can work smart</strong>.
                                 So, I automated myself out of that job by building some smart applications.
                                 Since then, I'm full time on building end to end web applications (Python, Javascript, Typescript, Go).
@@ -93,7 +93,7 @@ export default function SoftgataAbout() {
                         <li>CIF: (RO)43000098</li>
                         <li>Nr. înmatriculare: F22/1029/2020</li>
                         <li>EUID: ROONRC.F22/1029/2020</li>
-                        <li>Location: Iasi, Romania</li>
+                        <li>Location: Europe, Iasi, Romania</li>
                     </ul>
                 </div>
 

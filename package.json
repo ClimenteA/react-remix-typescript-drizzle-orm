@@ -8,13 +8,16 @@
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
+    "db:migrations": "drizzle-kit generate:sqlite --out ./app/backend.server/migrations --schema ./app/backend.server/dbtables.ts",
+    "drop:migrations": "rm -rf ./app/backend.server/migrations",
     "typecheck": "tsc"
   },
   "dependencies": {
     "@remix-run/node": "^2.8.1",
     "@remix-run/react": "^2.8.1",
     "@remix-run/serve": "^2.8.1",
-    "better-sqlite3": "^9.5.0",
+    "@types/better-sqlite3": "^7.6.10",
+    "better-sqlite3": "^9.6.0",
     "bootstrap-icons": "^1.11.3",
     "bulma": "^1.0.0",
     "drizzle-orm": "^0.30.8",
