@@ -2,9 +2,9 @@ import invariant from "tiny-invariant"
 import { useActionData } from "@remix-run/react"
 import type { MetaFunction } from "@remix-run/node"
 import type { ActionFunctionArgs } from "@remix-run/node"
-import NavBar from "../../components/softgata/Navbar"
-import Contact from "../../components/softgata/Contact"
-import Footer from "../../components/softgata/Footer"
+import NavBar from "../components/softgata/Navbar"
+import Contact from "../components/softgata/Contact"
+import Footer from "../components/softgata/Footer"
 
 
 export const meta: MetaFunction = () => {
