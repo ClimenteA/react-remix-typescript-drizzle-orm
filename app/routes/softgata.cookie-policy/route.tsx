@@ -1,5 +1,5 @@
-import NavBar from "../softgata._index/components/Navbar"
-import Footer from "../softgata._index/components/Footer"
+import NavBar from "../../components/softgata/Navbar"
+import Footer from "../../components/softgata/Footer"
 import type { MetaFunction } from "@remix-run/node"
 import { Link } from "@remix-run/react"
 

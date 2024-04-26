@@ -1,4 +1,4 @@
-import BookACall from "~/routes/softgata._index/components/BookACall"
+import BookACall from "./BookACall"
 
 
 export default function IdentifyAutomationOportunities() {

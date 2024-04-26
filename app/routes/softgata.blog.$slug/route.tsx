@@ -1,15 +1,15 @@
-import NavBar from "../softgata._index/components/Navbar"
-import Footer from "../softgata._index/components/Footer"
+import NavBar from "../../components/softgata/Navbar"
+import Footer from "../../components/softgata/Footer"
 import { json } from "@remix-run/node"
 import { useLoaderData } from "@remix-run/react"
 import type { MetaFunction, LoaderFunctionArgs } from "@remix-run/node"
 import invariant from "tiny-invariant"
-import IdentifyAutomationOportunities from "./components/IdentifyAutomationOportunities"
-import BenefitsOfAutomatedProcesses from "./components/BenefitsOfAutomatedProcesses"
-import UsefulSoftwareForCompanies from "./components/UsefulSoftwareForCompanies"
-import BuildingVsUsingExistingSoftware from "./components/BuildingVsUsingExistingSoftware"
-import TopTechSaaSCanUse from "./components/TopTechSaaSCanUse"
-import HowToFindGreatTalent from "./components/HowToFindGreatTalent"
+import IdentifyAutomationOportunities from "../../components/softgata/IdentifyAutomationOportunities"
+import BenefitsOfAutomatedProcesses from "../../components/softgata/BenefitsOfAutomatedProcesses"
+import UsefulSoftwareForCompanies from "../../components/softgata/UsefulSoftwareForCompanies"
+import BuildingVsUsingExistingSoftware from "../../components/softgata/BuildingVsUsingExistingSoftware"
+import TopTechSaaSCanUse from "../../components/softgata/TopTechSaaSCanUse"
+import HowToFindGreatTalent from "../../components/softgata/HowToFindGreatTalent"
 
 
 export const meta: MetaFunction = () => {

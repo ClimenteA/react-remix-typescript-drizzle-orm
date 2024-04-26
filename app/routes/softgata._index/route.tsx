@@ -1,12 +1,12 @@
 import type { MetaFunction } from "@remix-run/node"
-import MainHero from "./components/MainHero"
-import ServiceCards from "./components/ServiceCards"
-import ServiceDetails from "./components/ServiceDetails"
-import Steps from "./components/Steps"
-import Blog from "./components/Blog"
-import NavBar from "./components/Navbar"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+import MainHero from "../../components/softgata/MainHero"
+import ServiceCards from "../../components/softgata/ServiceCards"
+import ServiceDetails from "../../components/softgata/ServiceDetails"
+import Steps from "../../components/softgata/Steps"
+import Blog from "../../components/softgata/Blog"
+import NavBar from "../../components/softgata/Navbar"
+import Contact from "../../components/softgata/Contact"
+import Footer from "../../components/softgata/Footer"
 
 
 export const meta: MetaFunction = () => {
