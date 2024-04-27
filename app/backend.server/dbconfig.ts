@@ -4,7 +4,7 @@ import { migrate } from "drizzle-orm/better-sqlite3/migrator"
 import * as softgata from './dbtables'
 
 
-const sqlite = new Database("database.db")
+const sqlite = new Database("./data/database.db")
 
 export const db = drizzle(sqlite, { schema: { ...softgata } })
 
