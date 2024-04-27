@@ -1,6 +1,6 @@
 softgata.localhost {
 
-	reverse_proxy app:3000
+	reverse_proxy app:5000
 	redir / /softgata
 
 	encode zstd gzip
