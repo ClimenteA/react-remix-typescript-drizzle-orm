@@ -5,8 +5,8 @@ services:
   app:
     container_name: remix-web
     build: .
-    command: npm run start
     restart: unless-stopped
+    command: ./entrypoint.sh
     volumes:
       - "storage:/home/sites/data"
     ports:

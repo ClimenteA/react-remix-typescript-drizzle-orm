@@ -9,4 +9,4 @@ COPY . .
 
 RUN npm install && npm run build && npm run db:migrations
 
-CMD ["npm", "run", "start"]
+RUN chmod +x entrypoint.sh
