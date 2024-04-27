@@ -25,25 +25,25 @@ export default function ServiceCards() {
                 </p>
             </div>
 
-            <div className="t-flex t-flex-wrap t-place-content-center t-gap-16 mt-6">
+            <div className="t-flex t-flex-wrap t-place-content-center lg:t-gap-16 t-gap-8 mt-6">
 
                 <animated.article
                     ref={cardRef}
                     style={cardDrop}
-                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[500px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[450px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/business-automation.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
-                    <div className="t-mt-32">
+                    <div className="lg:t-mt-32 t-mt-24">
                         <h2 className="title is-3 has-text-white has-text-centered">
                             Business Automation
                         </h2>
 
-                        <p className="t-text-gray-100 t-mt-32 has-text-centered">
+                        <p className="t-text-gray-100 lg:t-mt-32 t-mt-16 has-text-centered">
                             Together we can identify business processes in your organization which can be improved with software.
                         </p>
                     </div>
 
-                    <div className="t-flex t-justify-end mt-6">
+                    <div className="t-flex t-justify-end t-mt-16">
                         <Link to={"/softgata#business-automation-details"} className="has-text-success">
                             See more
                             <i className="ml-1 bi bi-arrow-right t-text-xs"></i>
@@ -56,18 +56,20 @@ export default function ServiceCards() {
                 <animated.article
                     ref={cardRef}
                     style={cardDrop}
-                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[500px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[450px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/saas-development.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
-                    <div className="t-mt-32">
-                        <h2 className="title is-3 has-text-white has-text-centered">SAAS Development</h2>
+                    <div className="lg:t-mt-32 t-mt-24">
+                        <h2 className="title is-3 has-text-white has-text-centered">
+                            SAAS Development
+                        </h2>
 
-                        <p className="t-text-gray-100 t-mt-32 has-text-centered">
+                        <p className="t-text-gray-100 lg:t-mt-32 t-mt-16 has-text-centered">
                             We can help you build your next disruptive web application. We use the following tech: Python, Typescript, Go.
                         </p>
                     </div>
 
-                    <div className="t-flex t-justify-end mt-6">
+                    <div className="t-flex t-justify-end t-mt-16">
                         <Link to={"/softgata#saas-development-details"} className="has-text-success">
                             See more
                             <i className="ml-1 bi bi-arrow-right t-text-xs"></i>
@@ -79,18 +81,20 @@ export default function ServiceCards() {
                 <animated.article
                     ref={cardRef}
                     style={cardDrop}
-                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[500px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
+                    className="t-flex t-flex-col lg:t-max-w-[430px] lg:t-h-[550px] t-max-w-[400px] t-h-[450px] t-shadow-xl t-rounded-[20px] lg:t-p-8 t-p-4 t-bg-[url('/softgata/app-integrations.jpg')] t-bg-cover t-bg-center t-bg-no-repeat"
                 >
 
-                    <div className="t-mt-32">
-                        <h2 className="title is-3 has-text-white has-text-centered">App Integrations</h2>
+                    <div className="lg:t-mt-32 t-mt-24">
+                        <h2 className="title is-3 has-text-white has-text-centered">
+                            App Integrations
+                        </h2>
 
-                        <p className="t-text-gray-100 t-mt-32 has-text-centered">
+                        <p className="t-text-gray-100 lg:t-mt-32 t-mt-16 has-text-centered">
                             Sometimes what you need is already built. We can help you find and integrate available software in your organization.
                         </p>
                     </div>
 
-                    <div className="t-flex t-justify-end mt-6">
+                    <div className="t-flex t-justify-end t-mt-16">
                         <Link to={"/softgata#app-integrations-details"} className="has-text-success">
                             See more
                             <i className="ml-1 bi bi-arrow-right t-text-xs"></i>

@@ -36,11 +36,11 @@ export default function Steps() {
 
     const selectedCircleClasses = "t-bg-black t-min-w-[90px] t-min-h-[90px] t-rounded-[90px] t-grid t-place-content-center"
     const selectedArrowRightClasses = "m-4 t-block title is-1 bi bi-arrow-right lg:t-block t-hidden"
-    const selectedTextClasses = "ml-4 lg:t-text-xl t-text-md lg:mt-0 mt-4"
+    const selectedTextClasses = "lg:ml-4 lg:t-text-xl t-text-sm lg:mt-0 t-mt-4"
 
     const unselectedCircleClasses = "t-bg-gray-300 t-min-w-[90px] t-min-h-[90px] t-rounded-[90px] t-grid t-place-content-center"
     const unselectedArrowRightClasses = "m-4 t-block title t-text-gray-400 is-1 bi bi-arrow-right lg:t-block t-hidden"
-    const unselectedTextClasses = "ml-4 t-text-gray-400 lg:t-text-xl t-text-md lg:mt-0 mt-4"
+    const unselectedTextClasses = "lg:ml-4 t-text-gray-400 lg:t-text-xl t-text-sm lg:mt-0 t-mt-4"
 
     const imageSrcMapper: { [key: number]: string } = {
         1: "/softgata/email.jpg",
@@ -55,7 +55,7 @@ export default function Steps() {
                 <h2 className="title is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered">
                     Ok... how does this work?
                 </h2>
-                <p className="has-text-centered t-mx-auto -t-mt-5 lg:t-text-lg md:t-text-sm t-text-xs md:t-max-w-full t-max-w-[290px]">
+                <p className="has-text-centered t-mx-auto -t-mt-5 lg:t-text-lg md:t-text-sm t-text-xs md:t-max-w-full t-max-w-[390px]">
                     Below are the steps we'll take if you decide to collaborate with us.
                 </p>
             </animated.div>

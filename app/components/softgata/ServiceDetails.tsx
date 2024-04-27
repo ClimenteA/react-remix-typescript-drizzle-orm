@@ -14,15 +14,15 @@ export default function ServiceDetails() {
                         <i className="mr-4 bi bi-arrow-right"></i>
                         Business Automation
                     </h2>
-                    <p className="t-text-white lg:t-text-lg t-text-sm">
+                    <p className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs">
                         Any repeatable, “robotic” and long term business process slows down your operations and your revenue.
                         No matter the domain of your business if it involves doing work on a computer
                         some of the tasks can be automated.
                     </p>
-                    <p className="t-text-white lg:t-text-lg t-text-sm lg:t-mt-6 t-mt-4">
+                    <p className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs lg:t-mt-6 t-mt-4">
                         Here are 5 questions to ask about your business processes:
                     </p>
-                    <ul className="t-text-white lg:t-text-lg t-text-sm mt-2">
+                    <ul className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs mt-2">
                         <li>- Does the process "feel" robotic?</li>
                         <li>- Are we moving and transforming data from one tool to another?</li>
                         <li>- Do we do most of our work in Microsoft Office (ex: excel, outlook), SAP, and/or other internal applications?</li>
@@ -38,15 +38,15 @@ export default function ServiceDetails() {
                         <i className="mr-4 bi bi-arrow-right"></i>
                         SAAS Development
                     </h2>
-                    <p className="t-text-white lg:t-text-lg t-text-sm">
+                    <p className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs">
                         We can execute custom web applications in the following technologies: Python with
                         Django, FastAPI, Flask, Typescript with React and Remix.run, MongoDb, PostgresDB,
                         Go with GoFiber, AI integrations, external API integrations - any CRUD data oriented web application.
                     </p>
-                    <p className="t-text-white lg:t-text-lg t-text-sm lg:t-mt-6 t-mt-4">
+                    <p className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs lg:t-mt-6 t-mt-4">
                         Here are some principles that guide us:
                     </p>
-                    <ul className="t-text-white lg:t-text-lg t-text-sm mt-2">
+                    <ul className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs mt-2">
                         <li>- Simple is better than complex;</li>
                         <li>- Done is better than perfect;</li>
                         <li>- Fast iterations;</li>
@@ -61,15 +61,15 @@ export default function ServiceDetails() {
                         <i className="mr-4 bi bi-arrow-right"></i>
                         App Integrations
                     </h2>
-                    <p className="t-text-white lg:t-text-lg t-text-sm">
+                    <p className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs">
                         There is an tremendous amount of software already built.
                         Each one of them with its pros and cons. Before embarking in creating custom software solutions
                         is wise to investigate if existing solutions can be implemented in a business process. We can help you identify them.
                     </p>
-                    <p className="t-text-white lg:t-text-lg t-text-sm lg:t-mt-6 t-mt-4">
+                    <p className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs lg:t-mt-6 t-mt-4">
                         Here is some free consulting:
                     </p>
-                    <ul className="t-text-white lg:t-text-lg t-text-sm mt-2">
+                    <ul className="t-text-white lg:t-text-lg md:t-text-sm t-text-xs mt-2">
                         <li>- Excel with VBA can do a lot - identify team members that can be proficient in excel;</li>
                         <li>- Excel is also pretty easy to break and hard to maintain - offer your team the posibility to automate their work.
                             Install on their working machines vscode + python with some popular libraries (offer bonuses on each automated task);

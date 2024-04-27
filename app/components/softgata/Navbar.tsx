@@ -33,7 +33,7 @@ export default function NavBar() {
 
 
                 <div
-                    className={navbarOpen ? "navbar-menu is-active t-absolute t-right-[40px] has-text-centered" : "navbar-menu"}>
+                    className={navbarOpen ? "navbar-menu is-active t-absolute t-right-[40px] t-px-5 t-rounded-md has-text-centered" : "navbar-menu"}>
 
                     <div className="navbar-end has-text-weight-bold">
                         <div className="navbar-item">

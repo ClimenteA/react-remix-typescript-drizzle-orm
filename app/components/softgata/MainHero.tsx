@@ -31,16 +31,16 @@ export default function MainHero() {
                 </svg>
 
                 <animated.div style={{ ...ctaDrop }}>
-                    <h1 className="title is-size-1-desktop is-size-2-mobile is-size-2-tablet has-text-centered md:t-leading-relaxed t-mt-28 t-text-gray-900">
+                    <h1 className="title is-size-1-desktop is-size-2-tablet is-size-2-mobile  has-text-centered md:t-leading-relaxed t-mt-28 t-text-gray-900">
                         We'll help you bring
                         <span className="t-text-rose-600"> more value</span>
                         <br /> to your customers.
                     </h1>
                 </animated.div>
 
-                <p className="has-text-centered md:t-text-lg t-text-sm md:t-leading-relaxed">
+                <p className="has-text-centered md:t-text-lg t-text-xs t-mt-6 md:t-leading-relaxed">
                     Enhance your business by integrating custom software solutions.
-                    <br />
+                    <br className="md:t-block t-hidden" />
                     Save time, money, resources, increase accuracy of your business processes and maybe 10x your ROI.
                 </p>
             </div>
