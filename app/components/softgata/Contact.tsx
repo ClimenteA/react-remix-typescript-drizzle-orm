@@ -11,7 +11,7 @@ export default function Contact({ messageSent = false }) {
 
     return (
         <div className="t-bg-white">
-            <div className="container lg:t-py-48 t-py-32">
+            <div className="container lg:t-py-48 t-py-16">
                 <Form ref={$form} method="post" className="box t-py-16 lg:t-px-12 t-px-6 t-bg-gray-50">
 
                     <h2 className="title is-size-2-desktop is-size-3-tablet is-size-4-mobile">
@@ -21,7 +21,7 @@ export default function Contact({ messageSent = false }) {
                         {
                             messageSent ?
                                 "Thank you for your message! We will contact you as soon as we can."
-                                : "Provide and a short description of the issue you think we can be of help."
+                                : "Provide a short description of the issue you think we can be of help."
                         }</p>
 
                     {
@@ -30,14 +30,14 @@ export default function Contact({ messageSent = false }) {
                                 <div className="field t-mt-16 t-max-w-[370px]">
                                     <label className="label">Your email</label>
                                     <div className="control">
-                                        <input className="input is-dark" name="email" type="email" placeholder="youremail@company.com" />
+                                        <input className="input is-dark" name="email" type="email" />
                                     </div>
                                 </div>
 
                                 <div className="field">
                                     <label className="label">Your message</label>
                                     <div className="control">
-                                        <textarea className="textarea is-dark" name="message" placeholder="Write a short overview of the area you think we can help you."></textarea>
+                                        <textarea className="textarea is-dark" name="message"></textarea>
                                     </div>
                                 </div>
 

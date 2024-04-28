@@ -41,7 +41,7 @@ export default function MainHero() {
                 <p className="has-text-centered md:t-text-lg t-text-xs t-mt-6 md:t-leading-relaxed">
                     Enhance your business by integrating custom software solutions.
                     <br className="md:t-block t-hidden" />
-                    Save time, money, resources, increase accuracy of your business processes and maybe 10x your ROI.
+                    <span> Save time, money, resources, increase accuracy of your business processes and maybe 10x your ROI.</span>
                 </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function MainHero() {
 
             </div>
 
-            <div className="t-bg-rose-600 lg:t-p-20 t-py-6 t-px-4 md:t-mt-32 t-mt-16 md:t-rounded-[40px] lg:t-mx-0 t-mx-2 t-rounded-lg">
+            <div className="t-bg-rose-600 lg:t-p-20 t-py-6 t-px-4 md:t-mt-32 t-mt-16 lg:t-rounded-[40px] lg:t-mx-0 t-mx-2 t-rounded-lg">
                 <p className="title is-size-2-desktop is-size-3-tablet is-size-5-mobile md:t-leading-relaxed has-text-white">
                     “The function of good software is to make the complex appear to be simple.”
                 </p>

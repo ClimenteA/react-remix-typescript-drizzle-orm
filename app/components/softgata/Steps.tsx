@@ -34,13 +34,15 @@ export default function Steps() {
 
     const [headerRef, headerDrop] = useInView(animation, options)
 
-    const selectedCircleClasses = "t-bg-black t-min-w-[90px] t-min-h-[90px] t-rounded-[90px] t-grid t-place-content-center"
-    const selectedArrowRightClasses = "m-4 t-block title is-1 bi bi-arrow-right lg:t-block t-hidden"
-    const selectedTextClasses = "lg:ml-4 lg:t-text-xl t-text-sm lg:mt-0 t-mt-4"
+    const selectedCircleClasses = "t-bg-black lg:t-min-w-[90px] lg:t-min-h-[90px] lg:t-rounded-[90px] t-min-w-[50px] t-min-h-[50px] t-rounded-[50px] t-grid t-place-content-center"
+    const unselectedCircleClasses = "t-bg-gray-300 lg:t-min-w-[90px] lg:t-min-h-[90px] lg:t-rounded-[90px] t-min-w-[50px] t-min-h-[50px] t-rounded-[50px] t-grid t-place-content-center"
 
-    const unselectedCircleClasses = "t-bg-gray-300 t-min-w-[90px] t-min-h-[90px] t-rounded-[90px] t-grid t-place-content-center"
+    const selectedArrowRightClasses = "m-4 t-block title is-1 bi bi-arrow-right lg:t-block t-hidden"
     const unselectedArrowRightClasses = "m-4 t-block title t-text-gray-400 is-1 bi bi-arrow-right lg:t-block t-hidden"
-    const unselectedTextClasses = "lg:ml-4 t-text-gray-400 lg:t-text-xl t-text-sm lg:mt-0 t-mt-4"
+
+    const selectedTextClasses = "lg:ml-4 lg:t-text-lg t-text-sm lg:t-ml-0 t-ml-3 t-text-left"
+    const unselectedTextClasses = "lg:ml-4 t-text-gray-400 lg:t-text-lg t-text-sm lg:t-ml-0 t-ml-3 t-text-left"
+
 
     const imageSrcMapper: { [key: number]: string } = {
         1: "/softgata/email.jpg",
@@ -60,15 +62,15 @@ export default function Steps() {
                 </p>
             </animated.div>
 
-            <div className="t-flex lg:t-flex-row lg:t-flex-nowrap t-flex-wrap t-place-items-center t-gap-6 t-mt-24">
+            <div className="t-flex lg:t-flex-row lg:t-flex-nowrap t-flex-wrap t-place-items-center t-gap-6 lg:t-mt-24 t-mt-16">
 
                 <div className="t-space-y-12 lg:t-min-w-[600px] t-z-10 ml-2">
 
                     <a className="t-block t-cursor-pointer t-select-none" onClick={() => selectStep(1)}>
-                        <div className="t-flex lg:t-flex-row t-flex-col t-place-items-center">
+                        <div className="t-flex t-flex-row t-place-items-center">
 
                             <p className={selected == 1 ? selectedCircleClasses : unselectedCircleClasses}>
-                                <span className="t-text-white title is-1 t-z-10">
+                                <span className="t-text-white title is-size-1-desktop is-size-3-tablet is-size-3-mobile t-z-10">
                                     1
                                 </span>
                             </p>
@@ -84,10 +86,10 @@ export default function Steps() {
                     </a>
 
                     <a className="t-block t-cursor-pointer t-select-none" onClick={() => selectStep(2)}>
-                        <div className="t-flex lg:t-flex-row t-flex-col t-place-items-center">
+                        <div className="t-flex t-flex-row t-place-items-center">
 
                             <p className={selected == 2 ? selectedCircleClasses : unselectedCircleClasses}>
-                                <span className="t-text-white title is-1 t-z-10">
+                                <span className="t-text-white title is-size-1-desktop is-size-3-tablet is-size-3-mobile t-z-10">
                                     2
                                 </span>
                             </p>
@@ -103,10 +105,10 @@ export default function Steps() {
                     </a>
 
                     <a className="t-block t-cursor-pointer t-select-none" onClick={() => selectStep(3)}>
-                        <div className="t-flex lg:t-flex-row t-flex-col t-place-items-center">
+                        <div className="t-flex t-flex-row t-place-items-center">
 
                             <p className={selected == 3 ? selectedCircleClasses : unselectedCircleClasses}>
-                                <span className="t-text-white title is-1 t-z-10">
+                                <span className="t-text-white title is-size-1-desktop is-size-3-tablet is-size-3-mobile t-z-10">
                                     3
                                 </span>
                             </p>
