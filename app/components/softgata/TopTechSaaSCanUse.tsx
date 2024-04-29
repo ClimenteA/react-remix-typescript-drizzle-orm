@@ -22,7 +22,7 @@ export default function TopTechSaaSCanUse() {
             </p>
 
             <p>
-                Our default go-to stack is Remix (React)/TypeScript/Prisma ORM; it's perfect for building fast and reliable web applications.
+                Our default go-to stack is Remix (React)/TypeScript/Drizzle ORM; it's perfect for building fast and reliable web applications.
                 For instance, this website is built with React and Remix (pretty nice, isn't it?).
                 We chose Remix because the developers didn't reinvent the wheel. Remix is essentially React plus React Router—a 10+ year-old battle-tested React package—on the server, with some minor compilation steps to separate server components from client components.
                 Moreover, Remix is heavily used at Shopify for real user-facing e-commerce websites, which guarantees quality.
